@@ -1,0 +1,165 @@
+<html>
+    
+<!--______________________' LINKS' ______________ -->
+<head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="dataLoader.js"></script>
+
+
+        <!-- _______________'TOP BAR'_______________-->
+<header id="topBar"><p id="topBar_text">strma music.</p> </header> 
+
+</head>
+
+<body>
+    
+<!-- ________________'Recommended Section Header'____________________ -->
+<div id="newMusicContainer">        
+                    <div class="HOMEheaderContainer">
+                        <!-- ____________________'Main Navigation'____________________  -->
+                    <div class="FixedBottomNav">
+                            <div id="iconContainer">
+                                        <div class="iconHolder"  > <p class="iconTitle" id="home">HOME</p></div>
+                                        <div class="iconHolder"  ><p class="iconTitle" id="artists">ARTIST</p></div>
+                                        <div class="iconHolder"  ><p class="iconTitle" id="search">SEARCH</p></div>
+                                </div>
+                            </div> 
+                    
+                    
+                    <div id="playlist-container">
+                    <h6 id="playlistHeader">Browse Playlists</h6>
+                    <p class="browseDescription">
+                            Discover new music, the hottest tracks & upcoming artists and much more..
+                    </p>
+                        
+                        <!-- Inner Playlist Container -->
+                        <div class="playlistContent">
+                           
+                            <div class="playlistItem">  
+                                <img class="playlistIMGG" src="assets/images/playlistCovers/zimCaviar.png" height="130px" width="130px">
+                                <p class="playlistName">Zim Caviar</p>
+                            </div>
+
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/hottestNow.png" height="130px" width="130px">
+                                    <p class="playlistName">Hottest Now</p>
+                            </div>
+
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/rapNation.png" height="130px" width="130px">
+                                    <p class="playlistName">Rap Nation</p>
+                            </div>
+
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/classics.png" height="130px" width="130px">
+                                    <p class="playlistName">Dancehall Classics</p>
+                            </div>
+    
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/topCharts.png" height="130px" width="130px">
+                                    <p class="playlistName">Top Charts</p>
+                            </div>
+    
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/dancehallFinest.png" height="130px" width="130px">
+                                    <p class="playlistName">Dancehall Lovers</p>
+                            </div>
+
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/concious.png" height="130px" width="130px">
+                                    <p class="playlistName">Concious Vibes</p>
+                            </div>
+
+                            <div class="playlistItem">  
+                                    <img class="playlistIMGG" src="assets/images/playlistCovers/zimCaviar.png" height="130px" width="130px">
+                                    <p class="playlistName">Zim Caviar</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        
+                    </div>    
+                    </div>
+
+<!-- ____Main Pager____ -->
+<div id="mainPager">                   
+
+
+
+</div>
+    
+    <!-- Main Footer  -->
+    <div id="footer">
+
+        <div id="footerContainer">
+            
+            <div class="footerMenu">
+                    <p class="footerItem" id="about">About strma</p>
+                    <p class="footerItem" id="contact">Contact Us</p>
+                    <p class="footerItem" id="terms">Terms of Service</p>
+                    <p class="footerItem" id="partners">Become a Partner</p>
+                    <p class="footerItem" id="faq">FAQs</p>
+            </div>
+            <div class="footerbar"> 
+                <p class="discretion"> Disclaimer: All songs on this site are for promotional 
+                    use only. We do not sell tracks. We do not claim any special rights to any tracks. If 
+                    you have a copyrighted song that you wish to take down, please contact us.</p>
+                <p class="credits">a Kudz & Dundee Production </p>
+                <p class="trademark">Copyright © 2018 Strma</p>
+            </div>
+
+        </div>
+    </div>
+<!-- '________________ bottom Player_________________' -->
+<div id="songPlayer">
+    <p id="playerContent"> 
+
+    </p>
+</div>
+
+
+<!-- '______________Main Javascript Code_______________' -->   
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="slickSlider/slick/slick.min.js"></script>
+<script type="text/javascript" src="genresTabLogic.js"></script>
+<!-- //firebase// -->
+<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDGz_m9Xw1DFdRnpDEElHaAnPggXk9YMZs",
+            authDomain: "strmamedia.firebaseapp.com",
+            databaseURL: "https://strmamedia.firebaseio.com",
+            projectId: "strmamedia",
+            storageBucket: "strmamedia.appspot.com",
+            messagingSenderId: "974560430667"
+        };
+    firebase.initializeApp(config);
+</script>
+<!-- ///////////// -->
+<script type="text/javascript" src="page-loader.js"></script>
+
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+
+<!-- <script type="text/javascript" src="logic.js"></script> -->
+<script>
+    $(document).ready(function() {
+    $("#mainPager").load("http://127.0.0.1:8080/navigationroutes/home.html");  
+      // $(".slider").load("slickSlider/albumsslider.html");
+    });
+    
+
+</script>
+    
+
+
+
+
+</body>
+</html>
+
+                                <!-- '______________________DDCUMENT END__________________________________' -->

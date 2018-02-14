@@ -1,0 +1,323 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: #0e0e0e;
+    height: 652px;
+}
+#topbar{
+    width: 100%;
+    position: fixed;
+    top:0;
+    height:15px;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.98);
+    padding: 3px;
+    padding-top: 6px;
+}
+.mainContainer{
+    position: relative;
+    top: 14px;
+    text-align: center;
+}
+.dashHeader{
+    color:#ffffffa3;
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#databaseChecker{
+    background: rgb(47, 47, 47);
+    padding: 10px;
+    position: absolute;
+    width: 98%;
+    top: 10px;
+}
+#formArea{
+    background: rgb(35, 35, 35);
+    height: 70%;
+    position: relative;
+    top: 100px;
+}
+.headerChecker{
+    color:white;
+    font-size: 1.5rem;
+    font-family: arial;
+    text-align: center;
+    margin:10px;
+}
+.searchBar{
+    color: #d4cece;
+    background: #1b1a1a;
+    width: 25%;
+    border: none;
+    padding: 5px;
+    padding-left: 16px;
+}
+.songUpload{
+    display: inline-block;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 15%;
+    height: 100%;
+}
+.artistUpload{
+    display: inline-block;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.18);
+    position: absolute;
+    left: 35%;
+    height: 100%;
+}
+.albumUpload{
+    display: inline-block;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.28);
+    position: absolute;
+    left: 55%;
+    height: 100%;
+}
+.dataCheckResults{
+    display: inline-block;
+    width: 15%;
+    background: rgb(23, 23, 23);
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+/* uploadArea */
+.SonguploadHeader{
+    color:white;
+    font-size: 1.5rem;
+    font-family: arial;
+    text-align: center;
+    margin:10px;
+}
+.AlbumHeader, .ArtistHeader, .SongHeader, .dataCheckerHeader{
+    color: #5f5f5f;
+    font-size: 0.85rem;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+}
+/* formFields */
+.formfield{
+    display: block;
+    border: none;
+    color: #d6414d;
+    background: black;
+    margin: 2px;
+    padding: 6px;
+    width: 75%;
+}
+.formm{
+    text-align: center;
+    margin-left: 20%;
+}
+button{
+
+    display: block;
+    margin-left: 16%;
+}
+button:hover{
+    cursor: pointer;
+}
+.uploadAlbum{
+    display: block;
+    margin-left: 32%;
+    margin-top: 10px;
+}
+#addField{
+    margin-left: 51.5%;
+    border: none;
+    background: #da1223;
+    font-family: arial;
+    padding: 5px;
+    color: #dededee3;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+#addfield:hover{
+    background: #670009;
+}
+.listAttacher{
+    margin-left: 45.5%;
+    border: none;
+    background: #dab212;
+    font-family: arial;
+    padding: 5px;
+    color: #0e0e0ee3;
+    font-size: 11px;
+}
+.listAttacher:hover{
+    background:#ecd05e;
+    cursor: pointer;
+}
+
+.trackListHeader{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    color: #848484;
+    font-family: arial;
+
+}
+.trackList{
+    display: block;
+    border: none;
+    color: #d6414d;
+    background: black;
+    margin: 2px;
+    padding: 6px;
+    width: 75%;
+}
+
+.uploads{
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    height: 100%;
+    background: #020202;
+
+
+}
+.alluploaded{
+    border-bottom: solid 2px #ce0030;
+    height: 59%;
+    overflow-y: scroll;
+
+}
+.UploadedHeader{
+    color: #dc2343;
+    font-family: arial;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background: #0e0e0e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.songsuploaded{
+    display: inline-block;
+    background-color: #383836;
+    width: 50%;
+    height: 50%;
+    float:left;
+}
+.artistsuploaded{
+    display: inline-block;
+    background-color: #444440;
+    width: 50%;
+    height: 50%;
+    float:right;
+}
+.albumssuploaded{
+    display: inline-block;
+    background-color: #2b2b2b;
+    width: 50%;
+    height: 50%;
+    float:left;
+}
+img{
+
+}
+.totalUPstatus{
+
+}
+.songUPstatus{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.6rem;
+    color: #ffffff70;
+    font-family: arial;
+    position: relative;
+    bottom: -8px;
+}
+.artistUPstatus{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.6rem;
+    color: #ffffff70;
+    font-family: arial;
+    position: relative;
+    bottom: -8px;
+}
+.albumUPstatus{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.6rem;
+    color: #ffffff70;
+    font-family: arial;
+    position: relative;
+    bottom: -8px;
+}
+
+#counter{
+    font-family: arial;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.counterTally{
+    background: #1d1a1a;
+    width: 100%;
+    height: 35%;
+}
+.statusDB, .statusDBa, .statusDBs{
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: #1d1d1d;
+    font-size: 0rem;
+}
+
+
+
+
+/* ...........................ScrollBAr................... */
+::-webkit-scrollbar {
+    width: 15px; 
+}
+
+/* buttons */
+::-webkit-scrollbar-button:vertical:start:decrement {
+    margin-top:2px; 
+    background-image: url(../assets/icons/arrowUp.png);
+    display: block;
+
+}
+::-webkit-scrollbar-button:vertical:end:increment {
+    background-image: url(../assets/icons/arrowDown.png);
+    display: block;
+
+}
+::-webkit-scrollbar-corner {
+    background: #1b1717;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:#353030; 
+    border-radius:10px;
+    BORDER: solid 1px #2b2b2b;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#6d665f ; 
+    border-radius:10px;
+    BORDER: solid 1px #1f1f1f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8a837c; 
+    BORDER: solid 1px #1f1f1f;
+}
+

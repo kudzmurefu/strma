@@ -1,0 +1,174 @@
+#container1{
+ 
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 15px;
+    /* margin-left: 35px; */
+}
+#innerContainer{
+    width: 1000%;
+    height: 365px;
+    /* position: relative; */
+
+
+}
+
+.item{
+    width: 250px;
+    margin-right: 15px;
+    height: 245px;
+    float:left;
+    color:rgb(255, 255, 255);  font-family: arial;    margin-bottom: 15px;   opacity:0.95;
+}
+
+#BACKbuutton{
+    /* background: #212423; */
+    display: inline;
+    position: absolute;
+    padding-top: 79px;
+    padding-bottom: 73px;
+    padding-left: 4px;
+    padding-right: 9px;
+    margin-right: 4px;
+
+}
+#BACKbuutton:hover{
+    background: #2f350f70;
+    cursor: pointer;
+}
+
+#NEXTbuutton{
+    /* background: #212423; */
+    display: inline;
+    position: absolute;
+    padding-top: 79px;
+    padding-bottom: 73px;
+    padding-left: 4px;
+    padding-right: 9px;
+    margin-left: 4px;
+}
+#NEXTbuutton:hover{
+    background: #2f350f70;
+    cursor: pointer;
+}
+
+.slideDisable{
+    left:0px;
+}
+.slideEnable{
+    position: relative;
+    left: 0px;
+    
+}
+
+   /* Slider Song & Album title/artist */
+   .item{  }
+   .item:hover{cursor: pointer;color: black;font-family: arial; margin-bottom: 15px;  background: #788c10;  height:365px;}   
+ 
+   .songTitle{    font-weight: 600;    margin-bottom: -24px;    line-height: 1;    font-size: 0.9rem;  }
+   .songArtist{   font-size: 0.8rem;  margin-bottom: 1px;    line-height: 1;    opacity: 0.8;}
+   #songTextContainer{   margin-top: -7px;   margin-left: 4px;   }
+   .songItemALbums{   color:white;    font-family: arial;    margin-bottom: 15px;    margin-right: 10px;     }  
+   .AlbumTitle{  font-weight: bold;      margin-bottom:-24px;       line-height: 1; }
+   .AlbumArtist{     opacity:0.8; margin-bottom:0px;      line-height: 0;}
+
+   .contentMeta{
+    background-color: #a9ab9f14;
+    padding: 10px;
+    
+   }
+   .headerPlaylist{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 1rem;
+    /* padding-top: 15px; */
+    padding-bottom: 5px;
+    margin: 0;
+   }
+   a{
+       text-decoration: none;
+   }
+
+   .itemDescription{
+       color: #ffffffc7;
+    font-size: 0.8rem;
+    font-family: arial;
+    border-bottom: solid 1px #ffffff14;
+    padding-bottom: 10;
+    margin: 0;
+    overflow: hidden;
+    height: 45px;
+    line-height: 1rem;
+   }
+
+
+   /* popular Content */
+   .content1{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    /* border: solid 1px #edefe408; */
+    margin-left: 1.7%;
+    display: inline-block;
+    background: #edefe408;
+    margin-bottom: 10;
+
+   }
+   .content1:hover{
+    background: #e6e6e625;
+    border: none;
+    color: #788c10;
+    cursor: pointer;
+   }
+   .Contenttitle{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 123px;
+    letter-spacing: 1px;
+   }
+   
+/* PODCASTS image Overlays */
+   #sermons{  background-image: url(../assets/images/navigationroutes/artists/business3.jpg); 
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/images/navigationroutes/artists/business3.jpg);     }
+   #lifestyle{ background-image: url(../assets/images/navigationroutes/artists/life.jpg); 
+                background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/images/navigationroutes/artists/life.jpg);   
+  }
+   #business{ background-image: url(../assets/images/navigationroutes/artists/business2.jpg); 
+              background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/images/navigationroutes/artists/business2.jpg);  
+     }
+   #talkShow{ background-image: url( ../assets/images/navigationroutes/artists/business2);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/images/navigationroutes/artists/Redi1.png);
+ }
+   #radio{ background-image: url( ../assets/images/navigationroutes/artists/business2);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/images/navigationroutes/artists/talk2.jpg);
+ }
+
+ /* PODCASTS hover */
+ #sermons:hover{  background-image: linear-gradient(to bottom, rgba(66, 78, 1, 0.76) 0%,rgb(23, 17, 11) 100%), url(../assets/images/navigationroutes/artists/business3.jpg);  } 
+ #lifestyle:hover{background-image: linear-gradient(to bottom, rgba(66, 78, 1, 0.76) 0%,rgb(23, 17, 11) 100%), url(../assets/images/navigationroutes/artists/life.jpg);  }
+ #business:hover{background-image: linear-gradient(to bottom, rgba(66, 78, 1, 0.76) 0%,rgb(23, 17, 11) 100%), url(../assets/images/navigationroutes/artists/business2.jpg); }
+ #talkShow:hover{background-image: linear-gradient(to bottom, rgba(66, 78, 1, 0.76) 0%,rgb(23, 17, 11) 100%), url(../assets/images/navigationroutes/artists/Redi1.png);}
+ #radio:hover{   background-image: linear-gradient(to bottom, rgba(66, 78, 1, 0.76) 0%,rgb(23, 17, 11) 100%), url(../assets/images/navigationroutes/artists/talk2.jpg);}
+
+ /* Popular Channels */
+ .Channels{         margin-left: 1.7%;  width: 250px;  display: inline-block; background: #141413;  height: 375px; margin-bottom: 5px;}
+ .channelMeta{      border-bottom: solid 1px #f1f1f117; margin-left: 12px; margin-right: 11px;}
+    .channelName{ font-family: arial; font-size: 1rem; font-weight: bold; color:#91a915; margin-top: 12px;  margin-bottom: 0px;}
+    .channelDescription{ font-family: arial; font-size: 0.8rem; color:rgb(177, 177, 177); padding-bottom: 10;  margin-top: 0px;margin-bottom: 0px;}
+.Channels:hover{ 
+        cursor: pointer;
+        background: #788c10;
+       
+    }
+    .Channels:hover .channelName{
+        color: white;
+    }
+    .Channels:hover .channelimage{
+        opacity: 0.8;
+    }

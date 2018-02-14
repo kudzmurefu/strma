@@ -1,0 +1,115 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+header{
+	background:#e44949;
+
+	
+}
+h1{
+	font-size:50px;
+	font-family:Tahoma;
+	line-height:40px;
+	color:#af3333;
+	padding:40 10 20 30;
+	letter-spacing:1px;
+}
+
+
+body{
+	background:#1f1717;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.container11{
+	position: relative;
+	left: 10;
+	display:inline-block;
+}
+.container22{
+	position: absolute;
+	right: 10;
+	display:inline-block;
+}
+
+#submitButton{
+	background:#4bece6;
+    border: none;
+    padding: 5 20 5 20;
+    margin-left: 50px;
+    margin-top: 30px;	
+	color:#4c2424;
+}
+#submitButton:hover{
+	opacity: 0.7;
+}
+input[type="file" i] {
+
+    color: #fff;
+    text-align: left;
+	padding: 0;
+	margin:none;
+	background:none;
+}
+input{
+	margin:3px;
+	border:none;
+	color:#fff;
+    padding: 5 30 5 10;
+	font-size:12px;
+	background:#443730;
+	}
+	
+input:focus{
+	margin:3px;
+	background:grey;
+	color:#fff;
+	border:none;
+	opacity:1;
+    padding: 5 30 5 10;
+	font-size:12px;
+	border-color:#fb5f7b;
+	}
+	
+select{
+	color:#9e9999;
+	margin:3px;
+	padding-right:115px;
+	padding-left:16px;
+	opacity:0.9;
+	font-size:12px;
+	border:none;
+	background:#4c4541;
+}
+select:focus{
+	margin:3px;
+	color:#d8cdcd;
+	padding-right:115px;
+	padding-left:16px;
+	font-size:12px;
+	background:#4c4541;
+}
+textarea{
+	padding:10px;
+}
+
+
+
+#ContainerSongs{
+width: 100%;
+}
+
+}
+#view{
+	display: inline;
+	background: #fb5f7b;
+	
+}
+#thumbcontroller{
+	background-color: #af3333;
+}
+

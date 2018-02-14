@@ -1,0 +1,388 @@
+#topBar{height:30px;  top:-3px; position:fixed;width:100%;background:rgb(31, 26, 26); z-index: 1;}
+            #topBar_text{color:rgb(138, 138, 138);text-align: center;font-family:tahoma;font-size:11px;letter-spacing:1px;margin-top: 8px;}
+            
+            html, body {margin: 0px !important;padding: 0px !important;background: #090808;}
+   
+            .songContainer{margin-left: 1%;margin-bottom:15px;border-bottom:solid 1px rgb(31, 29, 29);padding-bottom:10px;padding-right: 15px;}
+            .songContainer:hover{background: #292728;color:#ca2342;cursor:pointer;}
+            .songContainer:focus{background: #242324;color:#fc7e7e;}
+            
+            #playlist-container{      width: 22%;border:solid 1px #171616;height: 1000%;background: #100f0f;z-index: 1;float: right;}
+
+            .mainContainer{padding-left: 18px;padding-right: 32px;width: 50%;background: #100e0e;display: block;float: left;}
+            
+            .separator{height: 3%;width: 54%;background: #100e0e;display: block;float: left;}
+            .separator2_inline{height: 5%;width: 45%;background: #090808;display: block;float: right;}
+            .pinkReddivider{height: 0.5%;width: 54%;background: #ab243c;display: block;float: left;}
+            
+            .headerContainer{height:40%;width: 54%;float: left;background: #111010;}
+            #pageHeadertext{   display:inline-block; font-family: Tahoma;
+                color: white;margin-top: 3%;margin-left: 1%; font-size: 33px;letter-spacing: 2px;}
+            #minorPageheaderText{font-family: abel;color: #a7a2a2;margin-top: -10%;margin-left: 2.7%;font-size: 18px;}
+            
+            .Categories{background: #0d0c0c;height:40%;width: 46%; float: right;}
+            #CategoriesHeadertext{font-family: Tahoma;color: #534d4d;margin-top: 7%;margin-left: 4%;font-size: 50px;}
+            #minorCategoriesText{font-family: abel;color: #534d4d;margin-top: -7%;margin-left: 4.7%;font-size: 18px;}
+            
+            .albumsETC{background: #090808; height:59%; width: 45%; float: right; }
+            #albumsHeadertext{font-family: Tahoma;color: #534d4d;margin-top: -2%;margin-left: 3%;font-size: 50px;}
+            
+          
+            #imgItem{margin-left: 0.5%;margin-bottom:-0.5%;}
+
+            /* Home styles */
+            .HOMEheaderContainer{
+                height: 160; width: 100%;  float: left; background: #880e2600;
+                background: -moz-linear-gradient(top, rgba(93, 82, 85, 0.33) 25%, rgba(9, 8, 8, 0.8)80%, rgb(9, 8, 8) 97%),url(../assets/images/navigationroutes/artists/business3.jpg);
+                background: -webkit-linear-gradient(top, rgba(93, 82, 85, 0.33) 25%, rgba(9, 8, 8, 0.8)80%, rgb(9, 8, 8) 97%),url(../assets/images/navigationroutes/artists/business3.jpg);
+                background: linear-gradient(to bottom, rgba(93, 82, 85, 0.33) 25%, rgba(9, 8, 8, 0.8)80%, rgb(9, 8, 8) 97%),url(../assets/images/navigationroutes/artists/business3.jpg);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e1128', endColorstr='#db0c0b0b',GradientType=0 );
+                margin-bottom: -110px;
+            }
+
+            .FixedBottomNav{ margin-top: 36px;  margin-left: 26%; height:15%;}
+           
+            #GenresHeadertext{
+                font-family: Tahoma;color: #cea84d;margin-top: 7%;margin-left: 4%;font-size: 30px;letter-spacing: 1px;}
+            .slider{
+                margin-left:1.7%; margin-top: -0.5%;     MAX-HEIGHT: 365PX;}
+            .item:hover{
+                opacity:0.9; cursor:pointer; }
+            .separator4{ height: 5px;width: 54%;background: #100e0e;display: block;float: left;}
+            .pinkReddivider2{       height: 1px;
+                width: 100%;background: #691528;display: block;float: left;}
+            .HomeGenres{
+                background: #0d0c0c;height:320px;width: 46%; float: right;}
+            .LatestSongs{background: #010101; height:59%; width: 45%; float: right; }
+            #RecommendedContent{ }
+            #RecommendContentText{  font-family: abel; color: #dddcdc;    margin-bottom: 22px;  text-align: left;margin-left: 32%;font-size: 13px;letter-spacing: 1px;}
+           #playlistHeader{  color: #9c1b38; margin-bottom: -8px;  font-family: arial;  font-size: 20px;
+            margin-left: 5.7%;  margin-top: 9px;}
+            #iconContainergenres{    }
+            #GenreiconTitle{color: white;font-family: abel;letter-spacing: 1px;font-size: 10px;}
+            #GenreiconTitle:hover{border-bottom:solid 1px #a70b21;padding-bottom:3px;}
+            .GenreNav{      margin-left: 21%;  }
+            #GenreiconHolder{    margin-right: 5%; display: inline-block; height: 7%;}
+            #GenreiconHolder:hover{cursor: pointer;}
+            #iconContainer{     height: 8%;  }
+            /* songlist HOME */
+            #genreiconContainer{   margin-left: 21%; }
+            #RecommendContentTextSongs{  font-family: abel; color: #dddcdc;    margin-bottom: 22px;  text-align: left;margin-left: 32%;font-size: 13px;letter-spacing: 1px;   }
+            #new-songs{     }
+            #songList{      }
+            #listheaders{     padding-left: 10px;   border-bottom: solid 3px #ffffff1a; margin-left: 20px;  width: 920px; }
+
+            .SongContainer{     padding-left: 10px; border-bottom: solid 1px #ffffff14;  margin-left: 20px; width: 920px;margin-bottom: 0;   }
+            .SongContainer:hover{  cursor:pointer; background: #691528;   }
+
+            #SonglistText{     margin-left: 68px;  position: relative;  margin-top: -55px; }
+            .SongListTitle{       font-family: arial;  color: white;  font-size: 16px;  letter-spacing: 1px;  margin: 0;  padding: 0;}
+            .SongListArtist{   font-family: arial;color: #ffffffc2; font-size: 12px;    letter-spacing: 1px; line-height: 0px;}
+            #artworkSonglist{ padding-bottom: 10px; padding-top: 10px;}
+            #titleHeader{   
+                color: #ffffffe8;   font-size:  20px;   line-height:  0;    font-weight: 700;   font-family: abel;
+                letter-spacing: 1px;    display:  inline-block; margin-right: 312px;  margin-left: 3px;   margin-bottom: -11px;}
+            #ReleaseDateHeader{ color: #ffffffe8;   font-size: 20px;    font-family: abel;  font-weight: 700;
+                                 letter-spacing: 1px;    display: inline-block;  line-height: 0;    }
+
+
+/* top Nav */
+#home{ padding-bottom:3px; border-bottom:solid 1px #ffffff5a; color: white; font-family: abel; letter-spacing: 1px; font-size: 12px;}
+#home:hover{  border-bottom:solid 1px #ffffff;padding-bottom:3px;  }
+
+#newMusic{color: white; font-family: abel; letter-spacing: 2px; font-size: 10px;}
+#newMusic:hover{  border-bottom:solid 1px #ffffff;padding-bottom:3px;  }
+
+#artists{color: white; font-family: abel; letter-spacing: 2px; font-size: 10px;}
+#artists:hover{  border-bottom:solid 1px #ffffff;padding-bottom:3px;  }
+
+#search{color: white; font-family: abel; letter-spacing: 2px; font-size: 10px;}
+#search:hover{  border-bottom:solid 1px #ffffff;padding-bottom:3px;  }
+
+iconContainer{ width: 845px;}
+
+.iconTitle{     }
+.iconTitle:hover{  }
+
+.iconHolder{margin-right: 5%;display: inline-block;         }
+.iconHolder:hover{cursor: pointer;}
+
+/* Pager Styles */
+#mainPager{      }
+#minorPager{   
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+        /* Song PLayer */
+        /* #songPlayer{display:block;position: fixed;bottom:0;height:50px;  width:100%; background: #191817}
+        #playerContent{width:106%;margin-left: 20px;} 
+
+
+/* Artist Nav Page */
+#legendary{
+    display: block;
+    color: #fff;    
+}
+#LegendItems{
+    margin-right: 5px;
+    border:solid 1px #a0a0a0;
+}
+#headerLegendary{
+    font-size: 1.9rem;
+    font-family: arial;
+    FONT-WEIGHT: bold;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    border-bottom: solid 1px #979e7414;
+    width: 95%;
+    COLOR: #91a915;
+    padding-bottom: 8px;
+    margin-left: 1.7%;
+}
+.podcastHeader{
+    font-size: 2rem;
+    font-family: arial;
+    FONT-WEIGHT: bold;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    border-bottom: solid 1px #979e740a;
+    width: 95%;
+    COLOR: #91a915;
+    padding-bottom: 9px;
+    margin-left: 1.7%;
+    margin-bottom: 16px;
+}
+.popular{
+    color:white;
+    font-family: arial;
+    font-size:0.7rem;
+    margin-left: 1.7%;
+
+}
+#mainContainerArtists {
+    margin-left: 8px;
+    margin-bottom: 50px;
+}
+
+
+/* .................................Home Page Route................................. */
+.newMusicHeader{
+    color: #efe6e7;
+    font-size: 2rem;
+    font-family: arial;
+    font-weight: bold;
+    border-bottom: solid 1px #1b1a1a;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.homepageHeader{
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-family: roboto;
+    font-weight: bold;
+    padding-bottom: 27px;
+    margin-bottom: 0px;
+    letter-spacing: -4px;
+    margin-left: 8px;
+    margin-top: -15px;
+}
+
+                                /* Playlists */
+.playlistContent{     text-align: center;  margin-top: 10px;  }
+.playlistItem{  margin: 0px; display:inline-block; }
+.playlistIMGG{}
+.playlistName{ display:none;text-align: center; color: white; font-family: arial;  margin-top: 6px; font-size: 0.8rem; font-weight:bold;}
+.browseDescription{     text-align: left;color: #bcc1b4f5;  font-family: arial;
+    font-size: 0.7rem;margin-left: 16px; border-bottom: solid 5px #481018; padding-bottom: 6px;letter-spacing: 1px;}
+.playlistItem:hover{ background:rgb(165, 18, 42);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.01) 29%, rgb(208, 208, 208)48%, rgb(0, 0, 0) 85%);
+                background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01) 29%, rgb(208, 208, 208)48%, rgb(0, 0, 0) 85%);
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 29%, rgb(208, 208, 208)48%, rgb(0, 0, 0) 85%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e1128', endColorstr='#db0c0b0b',GradientType=0 );
+    
+    cursor: pointer; }
+.playlistItem:hover .playlistIMGG{ opacity:0.7;}
+
+
+
+/* ...................................SEARCH Page Route............................................. */
+
+#searchContainer{   }
+.searchHeader{     
+    color: #29907e;
+    font-family: roboto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 16%;
+    margin-bottom: 0px;
+}
+.searchBar{     
+    margin-left: 16%;
+    width: 30%;
+    height: 30;
+    background: #1f1f1f;
+    border: none;
+    padding: 12px;
+}
+
+.searchButton{ 
+    border: none;
+    background: #675d5d70;
+    margin-left: -35px;
+    position: relative;
+    top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 29px;
+ }
+ /* button{
+    border: none;
+    background: #675d5d70;
+    margin-left: -35px;
+    position: relative;
+    top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 29px;
+ } */
+.resultsContainer{ 
+    margin-top: 32px;
+    border: solid 1px #0e0e0e;
+ }
+.artistResults{ 
+    color: white;
+    font-family: arial;
+    display: block;
+    height: 25%;
+    padding: 10px;
+    border-bottom: solid 1px #0e0e0e;
+ }
+.songResults{      
+    color: white;
+    font-family: arial;
+    display: inline-block;
+    height: 25%;
+    padding: 11px;
+    position: fixed;
+    /* top: -189px; */
+    width: 57%;
+}
+.albumResults{ 
+    color: white;
+    font-family: arial;
+    display: block;
+    height: 30%;
+    padding: 10px;
+ }
+.resultHeader{ 
+    color: #2f8475;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-bottom: solid 1px #152925;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+}
+.albumNartistContainer{
+    width: 40%;
+    display: inline-block;
+    border-right: solid 1px #0e0e0e;
+}
+.searchButton:hover{ 
+    background: #4c454570;
+    cursor: pointer;
+}
+
+.searchIcon{
+    opacity: 0.5;
+}
+
+.searchButton:hover .searchIcon{
+    opacity: 0.95;
+}
+
+/*........ Search Appended Results .........*/
+.SongResultItem{  border-bottom: solid 1px #151515; width: 98%; height: 40px; padding:5px;}
+.songNameSR{
+    color: white;
+    font-family: arial;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.artistNameSR{  margin-top: -8px; color: #c5c5c5; font-family: arial; font-size: 0.7rem;  margin-right: 20px;    }
+.metaSR{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: -8px;
+}
+.SongResultItem:hover{
+    background: #1b61449e;
+    cursor: pointer;
+}
+
+
+
+
+
+/* .........................................Footer Menu............................................. */
+#footerContainer{ background: #171313;  }
+/* .footerbar{ background: #3b3636; height: 2px} */
+.footerContainer{ position: relative;   bottom: -15px; }
+.footerMenu{  text-align: center; background: #1d1919; }
+.footerItem{ color: #afadad;    font-family: arial; font-size: 0.75rem; margin-right: 28px; 
+    display: inline-block; letter-spacing: 0px;}
+.discretion{
+    font-family: arial; font-size: 0.7rem;  color: #544d4d;  text-align: center;
+    padding-left: 20%;  padding-right: 20%;  padding-bottom: 10px;}
+.credits{font-family: arial; font-weight: bold; font-size: 0.7rem;  text-align: center; color: #726969;  margin-bottom: 3px;}
+.trademark{ font-family: arial; font-size: 0.7rem;  text-align: center; color: #726969; margin-top: 0px;    padding-bottom: 20px;}
+.footerItem:hover{ color:white;   cursor:pointer;}
+
+/* ....................................................SCROLLBARR................................... */
+/* width */
+::-webkit-scrollbar {
+    width: 15px; 
+}
+
+/* buttons */
+::-webkit-scrollbar-button:vertical:start:decrement {
+    margin-top:2px; 
+    background-image: url(../assets/icons/arrowUp.png);
+    display: block;
+
+}
+::-webkit-scrollbar-button:vertical:end:increment {
+    background-image: url(../assets/icons/arrowDown.png);
+    display: block;
+
+}
+::-webkit-scrollbar-corner {
+    background: #1b1717;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:#353030; 
+    border-radius:10px;
+    BORDER: solid 1px #2b2b2b;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#6d665f ; 
+    border-radius:10px;
+    BORDER: solid 1px #1f1f1f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8a837c; 
+    BORDER: solid 1px #1f1f1f;
+}
+

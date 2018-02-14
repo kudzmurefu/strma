@@ -1,0 +1,136 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    
+    <!-- topBar -->
+    <div id="topbar"><p class="dashHeader">Strma Dashboard</p></div>
+
+    <!-- Contant Area -->
+<div class="mainContainer">
+
+    <!-- ...................DATABASE CHECKER........................ -->
+    <div id="databaseChecker">
+        <p class="headerChecker">Check in Database</p>
+        <input class="searchBar" type="text" placeholder="Check in database">
+
+    </div>
+
+    <!-- ...................FORM UPLOAD AREA........................ -->
+    <div id="formArea">
+        <!-- CHECK results -->
+        <div class="dataCheckResults">
+            <p class="dataCheckerHeader">Checker results:</p>
+
+            </div>
+        <!-- songUpload -->
+        <div class="songUpload">
+            <p class="SongHeader">Upload Song</p>
+                <div class="formm">
+                        <input id="title" class="formfield" placeholder="title" type="text">
+                        <input id="artist" class="formfield" placeholder="artist" type="text">
+                        <input id="year" class="formfield" placeholder="Year" type="text">
+                        <input id="iframe" class="formfield" placeholder="iframe url" type="text">
+                        <input id="image" class="formfield" placeholder="Image" type="text">
+                        <button class="uploadSong">Upload Song</button>
+                </div>
+        </div>
+        <div class="entryStatusS">  </div>
+        <!-- artistUpload -->
+        <div class="artistUpload">
+            <p class="ArtistHeader">Artist Entry</p>
+                <div class="formm">
+                        <input id="artistNamee" class="formfield" placeholder="Artist Name" type="text">
+                        <input id="artistimage" class="formfield" placeholder="Artist image" type="text">
+                        <select id="genre" class="formfield" name="type" size="">
+                                <option value=""> </option>
+                                <option value="Zim-Dancehall">Zim-Dancehall</option>
+                                <option value="Afro-jazz">Afro-jazz</option>
+                                <option value="Sungura">Sungura</option>
+                                <option value="Museve">Museve</option>
+                                <option value="Urban Grooves">Urban Grooves</option>
+                                <option value="Hip-Hop">Hip-Hop</option>
+                                <option value="Gospel">Gospel</option>
+                                <option value="Mbira">Mbira</option>
+                                <option value="Pop">Pop</option>
+                                <option value="Traditional">Traditional</option>
+                                <option value=""> </option>
+                                </select>
+                        <button class="uploadArtist">Upload Artist</button>  
+                </div> 
+                <div class="entryStatus">
+
+                </div>         
+            </div>
+        <!-- albumUpload -->
+        <div class="albumUpload">
+            <p class="AlbumHeader">Upload  Album</p>
+                <div class="formm">
+                    <div class="mainFields">
+                            <input id="albumTitle" class="formfield" placeholder="Album Title" type="text">
+                            <input id="AlbumArtist" class="formfield" placeholder="Album Artist" type="text">
+                            <input id="ReleaseDate" class="formfield" placeholder="Release Date" type="text">
+                            <input id="Producer" class="formfield" placeholder="Producer" type="text">
+                            <select id="genre" class="formfield" name="type" size="">
+                                    <option value=""> </option>
+                                    <option value="Zim-Dancehall">Zim-Dancehall</option>
+                                    <option value="Afro-jazz">Afro-jazz</option>
+                                    <option value="Sungura">Sungura</option>
+                                    <option value="Museve">Museve</option>
+                                    <option value="Urban Grooves">Urban Grooves</option>
+                                    <option value="Hip-Hop">Hip-Hop</option>
+                                    <option value="Gospel">Gospel</option>
+                                    <option value="Mbira">Mbira</option>
+                                    <option value="Pop">Pop</option>
+                                    <option value="Traditional">Traditional</option>
+                                    <option value=""> </option>
+                                    </select>
+                                    <p class="trackListHeader">Add Tracklist:</p>
+                                        <input class="trackList"name="tracks[]">
+                    </div>
+                        
+                                    <button id="addField">Add field</button>
+                                    <button class="listAttacher">Attach List</button>
+                        
+                </div>
+                <button class="uploadAlbum">Upload Album</button>
+                <div class="entryStatusA">  </div>
+            </div>
+            <div class="uploads">
+                <p class="UploadedHeader">Session Uploads</p>
+                    <div class="alluploaded"></div>
+                    <div class="counterTally">
+                            <div class="songsuploaded"> <p id="counter" class="counterSongs">0</p> <p class="songUPstatus">Songs Uploaded</p></div>
+                            <div class="artistsuploaded"> <p id="counter" class="counterArtists">0</p><p class="artistUPstatus">Artists Uploaded</p></div>
+                            <div class="albumssuploaded"> <p id="counter" class="counterAlbums">0</p><p class="albumUPstatus">Albums Uploaded</p></div>
+                    </div>
+                     </div>
+        
+
+
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- //firebase// -->
+<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script>
+// Initialize Firebase
+    var config = {
+            apiKey: "AIzaSyDGz_m9Xw1DFdRnpDEElHaAnPggXk9YMZs",
+            authDomain: "strmamedia.firebaseapp.com",
+            databaseURL: "https://strmamedia.firebaseio.com",
+            projectId: "strmamedia",
+            storageBucket: "strmamedia.appspot.com",
+            messagingSenderId: "974560430667"
+        };
+    firebase.initializeApp(config);
+</script>
+<script src="logical.js"></script>
+</body>
+</html>

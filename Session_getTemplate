@@ -1,0 +1,7 @@
+    var getData = sessionStorage.getItem("songs");
+    var converter = JSON.parse(getData);
+
+    var data = converter;
+    console.log('-----------');
+    console.log('nnnnnnnnnnn');
+    console.log(data);

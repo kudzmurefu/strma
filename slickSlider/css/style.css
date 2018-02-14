@@ -1,0 +1,44 @@
+.slick-slide{
+    width:150px;
+    margin-right: 1px;
+    margin-left: 1px;
+    height:235px;
+  }
+  /* .slick-slide:focus{
+    background: #1b1717f5;
+
+  } */
+  body{
+      background: transparent;
+  }
+   /* Slider Song & Album title/artist */
+  .songItem{  color:white;  font-family: arial;    margin-bottom: 15px;   opacity:0.95}
+  .songItem:hover{  cursor:pointer; color:white;  font-family: arial;    margin-bottom: 15px;   background: #1b1717f5; }
+  .songItem:focus{background:#302727f5 }
+  
+
+  .songTitle{    font-weight: 600;    margin-bottom: -24px;    line-height: 1;    font-size: 13px;  }
+  .songArtist{       font-size: 13px;    margin-bottom: 1px;    line-height: 1;    opacity: 0.8;}
+  .container{      width:72.3%;      margin-left: 33px;    height: 200px;}
+  #songTextContainer{   margin-top: -7px;   margin-left: 4px;   }
+  .songItemALbums{   color:white;    font-family: arial;    margin-bottom: 15px;    margin-right: 10px;     }  
+  .AlbumTitle{  font-weight: bold;      margin-bottom:-24px;       line-height: 1; }
+  .AlbumArtist{     opacity:0.8; margin-bottom:0px;      line-height: 0;}
+  #nowPLaying{    color:rgb(191, 31, 58); font-size: 13px;  background: #1b1717f5;  margin-bottom: 1px;    line-height: 1;      padding-left: 3px;    margin-top: -13px;}
+
+/* Song PLayer */
+  #songPlayer{
+    display:none;
+    position: fixed;
+    bottom:0;
+    height:50px;  
+    width: 100.8%;
+    margin-left: -27px;
+    background: #191817;
+    z-index: 1;
+  }
+  #playerContent{
+      width:106%;
+      margin-left: 20px;
+  }
+  
